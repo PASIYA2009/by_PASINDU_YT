@@ -1,0 +1,9 @@
+{
+  "deploy": {
+    "type": "node",
+    "goal": "start"
+  },
+  "hooks": {
+    "postDeploy": "echo 'Deployment successful'"
+  }
+}
